@@ -391,7 +391,7 @@ void t13() {
 }
 void t14() {
   std::string handle_input;
-  std::cout << "Введите число:\n";
+  std::cout << "Введите число:\n %  ";
   std::cin >> handle_input;
   int size = handle_input.size();
   std::cout << "Количество цифр: " << size << '\n';
