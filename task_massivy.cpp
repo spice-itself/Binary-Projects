@@ -399,7 +399,7 @@ void t14() {
   for (int i = 0; i < size; i++) {
     digits[i] = handle_input[i] - '0';
   }
-  std::cout << "\nМассив цифр: ";
+  std::cout << "Массив цифр: ";
   for (int i = 0; i < size; i++) {
     std::cout << digits[i] << " ";
   }
